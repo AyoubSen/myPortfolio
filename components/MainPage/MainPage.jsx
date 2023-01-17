@@ -54,9 +54,9 @@ export default function MainPage() {
         </Heading>
         <br />
         <Text
-          fontSize={title === 'A Front-End Developer' ? '2xl' : 'md'}
+          fontSize="2xl"
           onClick={() => {
-            setTitle(`trust me bro 😅`);
+            setTitle(`A Front-End Developer, A GOOD ONE I PROMISE!`);
           }}
         >
           <code> {title}</code>

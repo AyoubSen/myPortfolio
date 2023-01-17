@@ -9,13 +9,13 @@ import {
   Button,
   useColorMode,
 } from '@chakra-ui/react';
-import Link from 'next/link';
+
 import { MoonIcon } from '@chakra-ui/icons';
 import { SunIcon } from '@chakra-ui/icons';
 import Logo from './Logo';
-import styled from '@emotion/styled';
+import { motion } from 'framer-motion';
 
-export default function Navbar() {
+function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
@@ -52,3 +52,5 @@ export default function Navbar() {
     </>
   );
 }
+
+export default motion(Navbar);
