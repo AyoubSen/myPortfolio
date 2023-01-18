@@ -24,7 +24,7 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/home.png" />
       </Head>
-      <Grid align="center" ml="20%" mr="20%" mt="5%">
+      <Grid align="center" ml="20%" mr="20%" mt="5%" mb="5%">
         <Box mb="20">
           <Image
             boxSize="250px"

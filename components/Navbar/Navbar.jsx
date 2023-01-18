@@ -22,11 +22,9 @@ function Navbar() {
     <>
       <Flex
         justify="space-between"
-        // border="2px solid gray"
         minWidth="max-content"
         align="center"
         borderBottom="2px solid gray"
-        // m="5"
       >
         <Logo />
         <Flex align="center" w="30%" justify="space-evenly">

@@ -1,4 +1,4 @@
-import { Box, Grid, Heading, Flex } from '@chakra-ui/react';
+import { Grid, Heading, Flex } from '@chakra-ui/react';
 import React from 'react';
 import Head from 'next/head';
 import Project from '@/components/ProjectsPage/Project';
@@ -10,7 +10,7 @@ export default function Projects() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/home.png" />
       </Head>
-      <Grid align="center" ml="10%" mr="10%" mt="5%" gap={20}>
+      <Grid align="center" ml="10%" mr="10%" mt="5%" gap={20} mb="5%">
         <Heading as="h1" fontSize="4xl">
           My Projects :
         </Heading>
@@ -59,8 +59,6 @@ export default function Projects() {
           highlatedText="MDX"
           website="https://frpresentation.vercel.app/#0/"
         />
-
-        <footer>oy</footer>
       </Grid>
     </>
   );
