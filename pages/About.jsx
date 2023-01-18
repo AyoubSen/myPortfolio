@@ -78,7 +78,7 @@ export default function About() {
               pb={4}
               color={colorMode === 'light' ? 'whiteAlpha.800' : 'gray.800'}
             >
-              My story started back in 2013 when I got was really interested in
+              My story started back in 2013 when I got really interested in
               Ethical Hacking (yes, not web development, how surprising), it was
               the flashy and cool stuff for me at the time. I eventually ended
               up joining the game development world with Unity3D, for some
