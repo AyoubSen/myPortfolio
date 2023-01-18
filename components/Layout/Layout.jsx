@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <main>{children}</main>
         <Flex
           bg={colorMode === 'light' ? '#D95F5F' : '#D98575'}
-          color="#FFF"
+          color={colorMode === 'light' ? 'whiteAlpha.800' : 'gray.800'}
           justify="center"
           align="center"
           fontWeight="bold"
