@@ -25,7 +25,12 @@ export default function MainPage() {
       m={{ base: '0 20% 0 20%', md: '0 10% 0 10%' }}
       p="10"
       fontWeight="bold"
-      justify="space-between"
+      justify={{
+        xl: 'space-around',
+        lg: 'space-around',
+        md: 'center',
+        sm: 'space-between',
+      }}
       align="center"
       flexDirection={{ base: 'column', sm: 'row' }}
     >
