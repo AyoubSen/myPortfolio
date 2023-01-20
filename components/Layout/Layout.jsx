@@ -25,28 +25,7 @@ export default function Layout({ children }) {
     >
       <Grid h="100vh" templateRows="70px auto 50px">
         <Navbar />
-
-        <Flex
-          m={{
-            xl: '0',
-            lg: '0 20% 0 20%',
-            md: '0 10% 0 10%',
-            sm: '0',
-          }}
-          fontWeight="bold"
-          justify={{
-            xl: 'space-around',
-            lg: 'space-around',
-            md: 'center',
-            sm: 'space-between',
-          }}
-          maxH="80%"
-          align="center"
-          flexDirection={{ base: 'column', sm: 'row' }}
-        >
-          {children}
-        </Flex>
-
+        <main>{children}</main>
         <Flex
           bg={colorMode === 'light' ? '#D95F5F' : '#D98575'}
           color={colorMode === 'light' ? 'whiteAlpha.800' : 'gray.800'}
