@@ -8,7 +8,6 @@ export default function Projects() {
       <Head>
         <title>Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/home.png" />
       </Head>
       <Grid align="center" ml="10%" mr="10%" mt="5%" gap={20} mb="5%">
         <Heading as="h1" fontSize="4xl">

@@ -22,7 +22,6 @@ export default function About() {
       <Head>
         <title>About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/home.png" />
       </Head>
       <Grid align="center" ml="20%" mr="20%" mt="5%" mb="5%">
         <Box mb="20">

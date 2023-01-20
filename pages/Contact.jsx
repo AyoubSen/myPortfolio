@@ -21,7 +21,6 @@ export default function Contact() {
       <Head>
         <title>Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/home.png" />
       </Head>
       <Flex align="center" ml="10%" mr="10%" mt="5%" direction="column">
         <Heading as="h1" size="xl" mb="5">
