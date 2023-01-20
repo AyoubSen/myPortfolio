@@ -23,12 +23,11 @@ export default function MainPage() {
   return (
     <Flex
       m={{
-        xl: '0 20% 0 20%',
+        xl: '0',
         lg: '0 20% 0 20%',
         md: '0 10% 0 10%',
         sm: '0',
       }}
-      p="10"
       fontWeight="bold"
       justify={{
         xl: 'space-around',
@@ -36,7 +35,7 @@ export default function MainPage() {
         md: 'center',
         sm: 'space-between',
       }}
-      align="center"
+      alignItems="center"
       flexDirection={{ base: 'column', sm: 'row' }}
     >
       <Box>
