@@ -87,7 +87,7 @@ export default function About() {
               quite some time enjoying that world.
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem borderBottom="none">
+          <AccordionItem>
             <h2>
               <AccordionButton fontSize="lg">
                 <Box as="span" flex="1" textAlign="left" fontWeight="bold">
@@ -105,6 +105,26 @@ export default function About() {
               that&lsquo;s when I discovered HTML, which to me was a much more
               affordable career to pursue at the time. Eventually it became
               something I&lsquo;m so deeply in love with.
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem borderBottom="none">
+            <h2>
+              <AccordionButton fontSize="lg">
+                <Box as="span" flex="1" textAlign="left" fontWeight="bold">
+                  What do you do now ?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel
+              bg={colorMode === 'light' ? '#B55050' : '#C97C6D'}
+              pb={4}
+              color={colorMode === 'light' ? 'whiteAlpha.800' : 'gray.800'}
+            >
+              I am currently a 5th year engineering student, I obviously had to
+              do projects in different programming languages, such as c#, PHP,
+              Java, etc... But on a personal level, Most personal projects
+              I&lsquo;m working on are in Javascript, or Lua.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>

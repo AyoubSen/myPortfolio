@@ -38,7 +38,17 @@ export default function Contact() {
           }
         />
       </Flex>
-      <Flex justify="center" align="center" gap={10} m="0 40% 0 40%">
+      <Flex
+        justify="center"
+        align="center"
+        gap={10}
+        m={{
+          base: '0 40% 0 40%',
+          lg: '0 40% 0 40%',
+          md: '0 40% 0 40%',
+          sm: '0 40% 2% 40%',
+        }}
+      >
         <Box>
           <Link href="https://www.facebook.com/TSWLevius/" target="_blank">
             <Icon

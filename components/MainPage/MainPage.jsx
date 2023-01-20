@@ -22,12 +22,12 @@ export default function MainPage() {
 
   return (
     <Flex
-      // border="2px solid gray"
-      m="0 10% 0 10%"
+      m={{ base: '0 20% 0 20%', md: '0 10% 0 10%' }}
       p="10"
       fontWeight="bold"
       justify="space-between"
       align="center"
+      flexDirection={{ base: 'column', sm: 'row' }}
     >
       <Box>
         <Heading
@@ -87,7 +87,7 @@ export default function MainPage() {
       </Box>
       <Box>
         <Image
-          boxSize="500px"
+          boxSize={{ base: '500px', md: '500px', lg: '500px', sm: '100%' }}
           alt="illustration of a guy coding"
           src={
             colorMode === 'light' ? 'codingOrange.png' : 'codingDarkMode.png'
