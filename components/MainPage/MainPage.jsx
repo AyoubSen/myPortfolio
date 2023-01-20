@@ -21,23 +21,7 @@ export default function MainPage() {
   const [title, setTitle] = useState('A Front-End Developer');
 
   return (
-    <Flex
-      m={{
-        xl: '0',
-        lg: '0 20% 0 20%',
-        md: '0 10% 0 10%',
-        sm: '0',
-      }}
-      fontWeight="bold"
-      justify={{
-        xl: 'space-around',
-        lg: 'space-around',
-        md: 'center',
-        sm: 'space-between',
-      }}
-      alignItems="center"
-      flexDirection={{ base: 'column', sm: 'row' }}
-    >
+    <>
       <Box>
         <Heading
           as="h1"
@@ -103,6 +87,6 @@ export default function MainPage() {
           }
         />
       </Box>
-    </Flex>
+    </>
   );
 }
