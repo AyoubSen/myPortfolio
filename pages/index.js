@@ -7,7 +7,6 @@ export default function Home() {
         <title>Ayoub Senhaji Hamim</title>
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/home.png" />
       </Head>
       <Main />
     </>

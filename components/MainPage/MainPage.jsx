@@ -22,7 +22,12 @@ export default function MainPage() {
 
   return (
     <Flex
-      m={{ base: '0 20% 0 20%', md: '0 10% 0 10%' }}
+      m={{
+        xl: '0 20% 0 20%',
+        lg: '0 20% 0 20%',
+        md: '0 10% 0 10%',
+        sm: '0',
+      }}
       p="10"
       fontWeight="bold"
       justify={{
@@ -78,7 +83,7 @@ export default function MainPage() {
             }
             color={colorMode === 'light' ? '#FFF' : '#000'}
           >
-            About me &nbsp; ⮞
+            About me &nbsp; ➤
           </Button>
           <Link href="https://github.com/AyoubSen/" target="_blank">
             <Icon
